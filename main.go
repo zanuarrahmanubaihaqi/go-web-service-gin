@@ -24,7 +24,7 @@ func main() {
 	router.GET("/songs", getSongs)
 	router.POST("/songs", postSongs)
 
-	router.Run("localhost:8080")
+	router.Run("localhost:8090")
 }
 
 func getSongs(c *gin.Context) {
